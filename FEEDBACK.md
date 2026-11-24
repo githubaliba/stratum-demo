@@ -1,0 +1,3 @@
+# Reviewer feedback
+
+Enable Pages in Settings > Pages, deploy from main / root. Intended URL https://githubaliba.github.io/stratum-demo/ . Append ?reviewer=R001 (or another opaque identifier). Keys identify feedback only; they are not authentication. Keep the reviewer-name mapping private. Feedback is stored locally per key and exported as JSON; ask reviewers to send it privately. No automatic submission or analytics. Never enter personal financial data. Future optional Azure Function: validate keys server-side, rate limit, validate payload, store private feedback via narrowly scoped GitHub credentials; never embed credentials in frontend. Deployment and browser testing pending. All demo data fictional.
